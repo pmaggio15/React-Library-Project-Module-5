@@ -5,6 +5,8 @@ import Highlights from './componets/Highlights';
 import Highlight from './componets/ui/Highlight';
 import Featured from './componets/Featured';
 import Discounted from './componets/Discounted';
+import Explore from './componets/Explore';
+import Logo from './componets/Footer'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Highlights />
       <Featured />
       <Discounted />
+      <Explore />
+      <Logo />
     </div>
   );
 }
